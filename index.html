@@ -162,6 +162,41 @@
       position: absolute;
       top: 9px;
       right: 90px;
+      }</style>
+   <button onclick="myFunction()" id="nosoviet">Anti-soviet-button</button>
+
+<script> 
+function myFunction(){
+   var x = document.getElementsByClassName("flag");
+   for (var i = 0; i < x.length; i++ ) {
+      x[i].style.display = "none ";
+   }
+}</script>
+
+<style>#nosoviet {
+   font-size: 20px;
+   position:absolute;
+   top: 10px;
+}</style>
+
+  <button onclick="myFunction()" id="car">Car-Button</button>
+  <script>
+   function myFunction() {
+     var x = document.createElement("IMG");
+     x.setAttribute("src", "https://www.beverlyhillsmagazine.com/wp-content/uploads/Dream-Cars-Dream-Car-Most-Expensive-Cars-Ford-GT-40-Luxury-Cars-Beverly-Hills-Magazine-4W.jpg");
+     x.setAttribute("width", "304");
+     x.setAttribute("height", "228");
+     x.setAttribute("alt", "ford-car");
+     document.body.appendChild(x);
+   }
+   </script>
+
+   <style>#car {
+      font-size: 20px;
+      position: absolute;
+      top:500;
+      left: 1000;
+   }</style>
 
    
 
