@@ -1,21 +1,14 @@
 <!DOCTYPE html>
 <html> 
    <head>
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-204023430-1">
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-204023430-1');
-      </script></head>
        <title>Cool_Website</title>
+       <link rel="stylesheet" href="style.ccs">
+      </head>
        <style>
             h1 {
            text-align: center;
-           color:white;  
+           color:white; 
+           font-size: 50px; 
            font-family: sans-serif;
            background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, rgb(0,225,0) 14.28%,
            rgb(0,225,225) 21.4%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
@@ -23,7 +16,7 @@
            background-size: 600vw 600vw;
            -webkit-text-fill-color: transparent;
            -webkit-background-clip: text;
-           animation: slide 10s linear infinite forwards;
+           animation: slide 10s linear infinite forwards; 
          }
            @keyframes slide {
               0%{
@@ -33,9 +26,7 @@
                  background-position-x: 600vw;
               }
               
-           }
-         
-         
+           } 
          </style>
        <style> body {
           background-color: black; 
@@ -44,75 +35,91 @@
        <!--HELLO, WHAT ARE YOU DOING IN HERE YOU SHOULD BE PRESSING THE BUTTON!-->   
        <style> p {
           color:purple;
-          text-shadow: -1px 1px pink
+          font-size: 25px;
+          text-shadow: -1px 1px pink   
        }</style>
        <p>Click this link for cool</p>
        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">https://bestlifeonline.com/coolest-memes-all-time/</a>
        <hr>
        <p>But actually, press this button for cool</p>
-       <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><button>COOL</button></a>
-       <style> button { 
+       <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><button id="COOLBUTTON">COOL</button></a>
+       <style> #COOLBUTTON { 
            display: block;
            margin: auto;
            font-size: 50px;
            border-radius: 15px;
+           position:absolute;
+           top: 380px;
+           left: 975px;
       }</style> 
       <style> a:link, a:visited  {
          color: white;
          background-color: transparent;
-         text-decoration: none;  
+         text-decoration: none;     
          background-color: red;  
       }
       </style>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_Soviet_Union.svg" alt="soviet flag" height="300px" width="500px">
-      <style> table {
-            font-family: sans-serif;
-            border-collapse: collapse;
-            width: 400px;
-            table-layout: auto;
-            
-            
-         }
-
-         td, th {
-            border: 1px solid  #dddddd;
-            text-align:left;
-            padding: 8px;
-         }
-           
-         tr:nth-child(even) {
-            background-color: #dddddd;
-            
-
-         }
-
-         table.center { 
-            margin-left:auto;
-            margin-right: auto;
-         }
-      </style>
-      <style>h2 {
-         color: #dddddd;
-         text-align: center;
+      <style> .margin-right {
+         position: absolute;
+         right: 45px;
       }
+      </style>
       
-      th {
-      color: #dddddd;   
-      }</style>
-   </head>
-<body>
-   <h2>People who fell for this website</h2>
-   <table class="center">
-      <tr>
-         <th>Persons</th>
-      </tr>
-      <tr>
-         <td>ghostrider</td>
-         <td>мой русский<td>
-       </tr>
-   </table>
-   <style>
-       ul {
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_Soviet_Union.svg" alt="flag" class="margin-right" height="300px" width="500px">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_Soviet_Union.svg" alt="soviet flag" class="top" height="300px" width="500px">
+         <style> table {
+               font-family: sans-serif;
+               border-collapse: collapse;
+               width: 400px;
+               table-layout: auto;  
+
+               
+            }
+
+            td, th {
+               border: 1px solid  #dddddd;
+               text-align:left;
+               : 8px;
+            }
+            
+            tr:nth-child(even) {
+               background-color: #dddddd;
+               
+
+            }
+
+            table.center { 
+               margin-left:auto;
+               margin-right: auto;
+               
+            }
+         </style>
+         <style>h2 {
+            color: #dddddd;
+            text-align: center;
+
+         }
+         
+         
+         th {
+         color:#dddddd;
+         }</style>
+      </head>
+   <body>
+      <h2>People who fell for this website</h2>
+      <table class="center">
+         <tr>
+            <th>Persons</th>
+         </tr>
+         <tr>
+            <td>ghostrider</td>
+            <td>мой русский</td>
+         </tr>
+      </table>
+      <hr>
+      <style>
+      
+         ul {
            list-style-type: none;
            margin: 0;
            padding: 0;
@@ -148,9 +155,9 @@
          
          
          <ul>
-           <li><a href="https://este-wey.github.io/">About</a></li>
+           <li><a href=http://127.0.0.1:5500/aboutpage.html>About</a></li>
          </ul>
-         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><button id="morebutton">More</button></a>
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><button id="morebutton">More</button></a>
    <style> #morebutton {
       background-color: red;
       height: 53px;
@@ -162,8 +169,8 @@
       position: absolute;
       top: 9px;
       right: 90px;
-   }</style>
-            <!--make this button actually do something in the future-->
+
+   
 
 
 
@@ -185,4 +192,4 @@
 
 
 </body>
- </html>         
+ </html>        
